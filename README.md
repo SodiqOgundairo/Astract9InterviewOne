@@ -1,2 +1,4 @@
-# Astract9InterviewOne
-A single landing page created with ReacJS, Bootstrap CSS for the purpose of interview for the post of a Front End Developer at Astract9
+# upDate
+An application written with ReactJS, Tailwind CSS 
+
+Get your latest movie updates and All forms of news as you want it. 
