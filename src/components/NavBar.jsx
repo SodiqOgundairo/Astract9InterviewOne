@@ -23,10 +23,10 @@ const NavBar = () => {
         <p   className="block py-2 pr-3 pl-4 text-white font-[14px] hover:text-theme md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">ABOUT US</p>
       </li>
       <li>
-        <p   className="block py-2 px-5 text-white font-[14px] hover:text-theme md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">OUR COMMUNITIES</p>
+        <p id="dropdownNavbarButton" data-dropdown-toggle="dropdownNavbar" className=" py-2 px-5 text-white font-[14px] hover:text-theme md:bg-transparent md:text-white md:p-0 dark:text-white flex items-center justify-between w-full " aria-current="page">OUR COMMUNITIES <svg class="w-4 h-4 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></p>
       </li>
       <li>
-        <p   className="block py-2 px-5 text-white font-[14px] hover:text-theme md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">ELECTION DATA</p>
+        <p id="dropdownNavbarButton" data-dropdown-toggle="dropdownNavbar" className=" py-2 px-5 text-white font-[14px] hover:text-theme md:bg-transparent md:text-white md:p-0 dark:text-white flex items-center justify-between w-full " aria-current="page">ELECTION DATA <svg class="w-4 h-4 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></p>
       </li>
       <li>
         <p   className="block py-2 px-5 text-white font-[14px] hover:text-theme md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">E-BUDDY</p>
@@ -35,6 +35,7 @@ const NavBar = () => {
         <p   className="block py-2 px-5 text-white font-[14px] hover:text-theme md:bg-transparent md:text-white md:p-0 dark:text-white" aria-current="page">FAQ'S</p>
       </li>
     </ul>
+ 
     <div className='ml-10 '>
 
     <button type="button" className="text-white  hover:bg-background hover:border-theme hover:focus:ring-4 hover:focus:outline-none hover:focus:ring-theme font-medium rounded-[4px] text-sm px-[25px] py-[8px] text-center mr-3 md:mr-0">LOGIN</button>
